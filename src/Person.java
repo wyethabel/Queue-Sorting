@@ -1,3 +1,5 @@
+// Primary object class storing individual details for use in the queue.
+
 public class Person {
     private String first;
     private String last;
@@ -21,6 +23,7 @@ public class Person {
         return age;
     }
 
+    // toString override to ensure output is not an object type.
     @Override
     public String toString() {
         return first + " " + last + " " + age;

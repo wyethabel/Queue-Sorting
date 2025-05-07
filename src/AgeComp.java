@@ -1,3 +1,5 @@
+// Comparator utilized for sorting ages.
+
 import java.util.Comparator;
 
 public class AgeComp implements Comparator<Person> {

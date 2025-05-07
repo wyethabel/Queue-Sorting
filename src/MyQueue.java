@@ -1,3 +1,7 @@
+/* Primary custom queue class working an a list with the options
+to enqueue, dequeue, print contents, and sort by last name or age
+in a descending manner. */
+
 import java.util.*;
 
 public class MyQueue {
@@ -15,7 +19,7 @@ public class MyQueue {
     // Remove person.
     public Person dequeue() {
         if (contents.isEmpty()) {
-            return null;
+            throw new NoSuchElementException("Queue is currently empty.");
         }
         return contents.removeFirst();
     }

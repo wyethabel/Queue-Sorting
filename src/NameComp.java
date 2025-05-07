@@ -1,3 +1,5 @@
+// Comparator utilized for sorting last names.
+
 import java.util.Comparator;
 
 public class NameComp implements Comparator<Person> {
